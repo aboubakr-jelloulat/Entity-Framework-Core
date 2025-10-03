@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "01-Jump start": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
