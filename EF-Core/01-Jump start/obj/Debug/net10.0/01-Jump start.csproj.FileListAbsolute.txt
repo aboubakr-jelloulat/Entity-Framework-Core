@@ -69,3 +69,4 @@ C:\Users\HP\Desktop\EF\EF-Core\01-Jump start\obj\Debug\net10.0\refint\01-Jump st
 C:\Users\HP\Desktop\EF\EF-Core\01-Jump start\obj\Debug\net10.0\01-Jump start.pdb
 C:\Users\HP\Desktop\EF\EF-Core\01-Jump start\obj\Debug\net10.0\01-Jump start.genruntimeconfig.cache
 C:\Users\HP\Desktop\EF\EF-Core\01-Jump start\obj\Debug\net10.0\ref\01-Jump start.dll
+C:\Users\HP\Desktop\EF\EF-Core\01-Jump start\obj\Debug\net10.0\01-Jump start.sourcelink.json

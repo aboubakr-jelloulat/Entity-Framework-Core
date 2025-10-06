@@ -1,20 +1,13 @@
-﻿using _01_Jump_start.Shared;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Internal;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-
-namespace _01_Jump_start
+namespace _01_Jump_start.Shared
 {
-
-    public class SetUpDbContest : DbContext
+    public class AppDbContext : DbContext
     {
-
-        public DbSet<Wallet> Wallets { get; set; }
-
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
@@ -27,11 +20,11 @@ namespace _01_Jump_start
             optionsBuilder.UseSqlServer(constr);
         }
 
+        public DbSet<Wallet> Wallets { get; set; }
 
-        public static void SetUpDbContestMethode()
-        {
-            Console.WriteLine("Set Up Db Contest ....");
 
-        }
     }
+
+
 }
+
