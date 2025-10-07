@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "02-EF-Core DbContext": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
