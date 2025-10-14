@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="01-Jump start/01-Jump start.csproj" />
+  <Project Path="02-EF-Core DbContext/02-EF-Core DbContext.csproj" Id="1be2f576-aaa1-43f9-8dab-e4254c71f9f0" />
 </Solution>

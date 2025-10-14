@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("01-Jump start")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e5a0956f0beee0b2e426db690aeceed0dff7f98")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f2b7a675d1e885c7231af4016a8180f7b6c7f73")]
 [assembly: System.Reflection.AssemblyProductAttribute("01-Jump start")]
 [assembly: System.Reflection.AssemblyTitleAttribute("01-Jump start")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

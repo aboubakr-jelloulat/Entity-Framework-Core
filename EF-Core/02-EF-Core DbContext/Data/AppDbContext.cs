@@ -29,17 +29,9 @@ namespace _02_EF_Core_DbContext.Data
 
 
 
-    // Way 2 : External parametrize 
+   
 
-    public class AppDbContext : DbContext
-    {
-       public AppDbContext(DbContextOptions options) : base(options)
-       {
-
-       }
-
-        public DbSet<Wallet> Wallets { get; set; } = null!;
-    }
+   
 
 }
 

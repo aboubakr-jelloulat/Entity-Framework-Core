@@ -9,6 +9,16 @@ namespace _02_EF_Core_DbContext.DbContextExternalConfiguration
 {
     internal class clsDbContextExternalConfiguration
     {
+        // Way 2 : External parametrize 
+        public class AppDbContext : DbContext
+        {
+            public AppDbContext(DbContextOptions options) : base(options)
+            {
+
+            }
+
+            public DbSet<Wallet> Wallets { get; set; } = null!;
+        }
 
 
         public static void   DbContextExternalConfigurationMethode()
