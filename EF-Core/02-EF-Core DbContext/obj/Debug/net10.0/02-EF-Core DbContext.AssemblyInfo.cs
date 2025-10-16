@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("02-EF-Core DbContext")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12253bc976f7506a9158c70174f5cf79389a4b4c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac44ce26e8915d8fc56d22e5111fa2e89aa0d7a3")]
 [assembly: System.Reflection.AssemblyProductAttribute("02-EF-Core DbContext")]
 [assembly: System.Reflection.AssemblyTitleAttribute("02-EF-Core DbContext")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "03-EF-Core Configuration": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

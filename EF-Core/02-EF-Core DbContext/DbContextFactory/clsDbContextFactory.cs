@@ -159,8 +159,11 @@ namespace _02_EF_Core_DbContext.DbContextFactory
         }
 
 
+        // is not work you can see another way 
         public static void DbContextAndConcurrency()
         {
+
+
             var config = new ConfigurationBuilder()
                 .AddJsonFile("appsettings.json")
                 .Build();
@@ -190,14 +193,14 @@ namespace _02_EF_Core_DbContext.DbContextFactory
             }).Wait(); 
 
 
-            using (var context = serviceProvider.GetService<AppDbContext>())
-            {
-                foreach (var wallet in context!.Wallets)
-                {
-                    Console.WriteLine(wallet);
-                }
+            //using (var context = serviceProvider.GetService<AppDbContext>())
+            //{
+            //    foreach (var wallet in context!.Wallets)
+            //    {
+            //        Console.WriteLine(wallet);
+            //    }
 
-            }
+            //}
 
         }
 
